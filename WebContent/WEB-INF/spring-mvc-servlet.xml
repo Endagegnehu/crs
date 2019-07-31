@@ -70,7 +70,7 @@
 	<mvc:resources location="/investigator/resources/" mapping="/investigator/resources/**"></mvc:resources>
 	<mvc:resources location="/prosecutor/resources/" mapping="/prosecutor/resources/**"></mvc:resources>
 	<mvc:resources location="/login/" mapping="/login/**"></mvc:resources>
-	
+	<mvc:default-servlet-handler />
 	
 </beans>
 

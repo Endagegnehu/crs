@@ -1,5 +1,6 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%> 
 <%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,7 +70,7 @@
                 <div class="info">
                     <h2 data-toggle="collapse" href="#collapseExample" aria-expanded="true">
 							  <span>
-							   <span class="user-level">${name}</span><br>
+							   <span class="user-level">${sessionScope.username}</span><br>
 								  <!-- the Name of user form database  -->
 							  <span class="user-level">Officer<!-- Job of the user from database using session--></span></span>
                     </h2>
